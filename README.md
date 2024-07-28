@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterExp2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-exp2@esm/index.mjs';
+import iterExp2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-exp2@v0.2.2-esm/index.mjs';
 ```
 
 #### iterExp2( iterator )
@@ -111,7 +111,7 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 <script type="module">
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@esm/index.mjs';
-import iterExp2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-exp2@esm/index.mjs';
+import iterExp2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-exp2@v0.2.2-esm/index.mjs';
 
 // Create a seeded iterator for generating pseudorandom numbers:
 var rand = uniform( -50.0, 50.0, {
